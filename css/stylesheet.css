@@ -1,0 +1,54 @@
+* {
+	font-family:"Montserrat", Arial;
+}
+html, body {
+	margin:0;
+	padding:0;
+}
+table {
+	width:100%;
+}
+a {
+	color:crimson;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+	color:#999;
+}
+div {
+	box-sizing: border-box;
+}
+header {
+	padding:10px;
+	margin:0 auto;
+}
+header a {
+	padding:0 20px;
+}
+input[type="submit"] {
+	-webkit-apperance:none;
+	padding:5px;
+	background: crimson;
+	color:#FFF;
+	cursor:pointer;
+	border:none;
+	font-size:16px;
+}
+input, textarea {
+	-webkit-apperance:none;
+	padding:5px;
+	resize: none;
+	border:none;
+	border-bottom:solid 1px crimson;
+	font-size:16px;
+}
+.profilePicture {
+	width:100px;
+}
+.Message {
+	padding: 10px;
+	background: crimson;
+	color:#FFF;
+	margin: 10px 0;
+}

@@ -71,11 +71,11 @@
 	
 	$mail = new PHPMailer;
 	$mail->isSMTP();
-	$mail->Host = '	email-smtp.us-west-2.amazonaws.com';
+	$mail->Host = 'Host';
 	$mail->Port = 587;
 	$mail->SMTPAuth = true;
-	$mail->Username = 'AKIAI6XXUJTA53FI3CFA';
-	$mail->Password = 'AkJ3t7Oq69yWAl/pz9HRF90bVKtRS8Zrh/d4NG4nEbg1';
+	$mail->Username = 'User-Name';
+	$mail->Password = 'Password';
 	$mail->setFrom('noreply@csun.online', 'csun.online');
 	$mail->Subject = 'csun.online - Finish Account Setup';
 	$mail->addAddress($emailAddress, $firstName . " " . $lastName);
